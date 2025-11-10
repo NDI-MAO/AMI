@@ -1,3 +1,6 @@
+--Question 2
+--Write a query to calculate year-on-year revenue growth (%) for each enterprise and return the top 10 fastest-growing enterprises.
+
 WITH revenue_growth AS (
     SELECT 
         f1.enterprise_id,

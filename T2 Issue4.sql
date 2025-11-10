@@ -1,4 +1,6 @@
--- Strategy 1: Flag for exclusion
+--Task 2 Question 4
+--15% of revenue values missing
+
 ALTER TABLE financials ADD COLUMN has_complete_data BOOLEAN;
 
 UPDATE financials

@@ -1,3 +1,6 @@
+--Question 3
+--Write a query to return the average employees and revenue by country and completion status, excluding enterprises with missing values.
+
 SELECT 
     e.country,
     pp.completion_status,

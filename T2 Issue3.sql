@@ -1,3 +1,6 @@
+--Task 2 Question 3
+--Duplicate enterprise IDs across different countries
+
 -- Identify duplicates
 SELECT enterprise_id, COUNT(DISTINCT country) as country_count
 FROM enterprises

@@ -1,3 +1,6 @@
+--Question 1
+--Write a query to return the number of enterprises per sector that completed at least one programme in 2024.
+
 SELECT 
     e.sector,
     COUNT(DISTINCT e.enterprise_id) as enterprise_count
